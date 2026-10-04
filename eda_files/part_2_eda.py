@@ -3,7 +3,7 @@ import h5py
 import numpy as np
 from sklearn.decomposition import PCA
 import matplotlib.pyplot as plt
-from plasma_saturation import detect_saturation_window
+from misc.plasma_saturation import detect_saturation_window
 
 
 # Purpose:

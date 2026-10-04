@@ -5,7 +5,7 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 
-from plasma_saturation import (
+from misc.plasma_saturation import (
     compute_total_kinetic_energy_series,
     detect_saturation_window,
 )

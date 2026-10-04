@@ -7,7 +7,7 @@ from torch.utils.data import Dataset
 from scipy.interpolate import interp1d
 import pandas as pd
 import matplotlib.pyplot as plt
-from plasma_saturation import detect_saturation_window
+from misc.plasma_saturation import detect_saturation_window
 
 
 # Purpose:

@@ -7,7 +7,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 from torch.utils.data import Dataset, DataLoader, Subset, WeightedRandomSampler
 import matplotlib.pyplot as plt
-from plasma_saturation import detect_saturation_window
+from misc.plasma_saturation import detect_saturation_window
 
 # -----------------------------------------------------------------------------
 # Step 5 / Part 4: Conditional VAE Snapshot Generation

@@ -9,7 +9,7 @@ from scipy.interpolate import interp1d
 from sklearn.decomposition import PCA
 import pandas as pd
 import matplotlib.pyplot as plt
-from plasma_saturation import detect_saturation_window
+from misc.plasma_saturation import detect_saturation_window
 
 
 SEED = 42
